@@ -24,7 +24,6 @@ apps=(
   git                                           # utils
   koekeishiya/formulae/skhd                     # utils - hotkey daemon
   chunkwm                                       # utils - window manager
-  ranger                                        # utils - file manager
   neovim/neovim/neovim                          # editor
   pyenv                                         # python - used in neovim
   pyenv-virtualenv                              # python - used in neovim
