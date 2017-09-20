@@ -13,7 +13,7 @@ then
 fi
 
 # upgrade any already-installed formulae
-brew upgrade --all
+brew upgrade 
 
 # packages to install
 apps=(
@@ -25,7 +25,7 @@ apps=(
   koekeishiya/formulae/skhd                     # utils - hotkey daemon
   chunkwm                                       # utils - window manager
   ranger                                        # utils - file manager
-  neovim/neovim/neovim                          # editor
+  neovim                                        # editor
   pyenv                                         # python - used in neovim
   pyenv-virtualenv                              # python - used in neovim
   ranger                                        # terminal - file manager
@@ -60,8 +60,6 @@ fun=(
   neofetch                                      # utils - print system information
 )
 
-brew tap homebrew/versions
-brew tap homebrew/dupes
 brew tap homebrew/services
 
 brew tap universal-ctags/universal-ctags
