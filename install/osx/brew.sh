@@ -18,7 +18,6 @@ brew upgrade --all
 # packages to install
 apps=(
   coreutils                                     # utils
-  curl                                          # utils
   fasd                                          # utils - navigate directories fast, like autojump, z
   fzf                                           # utils - terminal fuzzy finder
   git                                           # utils
